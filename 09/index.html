@@ -1,79 +1,86 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>BOX MODEL</title>
-    <meta charset="utf-8" />
-    <style type="text/css">
-        .noticia {
-            font-family: "opensans-regular", arial, sans-serif;
-            background-color: #F5F5DC;
-            border: 1px solid black;
-            color: #333;
-            font-size: 16px;
-            padding-left: 15px;
-            padding-right: 10px;
-            text-align: justify;
-            line-height: 24px;
-            width: 500px;
-            margin: 20px;
-            float:left
-
-
-        }
-
-        .noticia h1 {
-            color: #c4170c;
-            font-family: "Helvetica Neue", Arial, sans-serif;
-            margin: 8px;
-        }
-        .container{
-            display: flex;
-        }
-        .imagem { 
-            float: right;
-            width: 200px;
-        }
-    </style>
-
-</head>
-
-<body>
-    <div class="container">
-        <div class="noticia">
-
-            <h1>Titulo da noticia</h1>
-            
-             <img class="imagem" src"https://img.freepik.com/fotos-premium/animacao-grafica-de-introducao-de-noticias-com-circulos-e-mapa-mundi-fundo-abstrato-estilo-de-ilustracao-3d-elegante-e-luxuoso-para-noticias-e-modelo-de-negocios_510351-4673.jpg">
-            <p>It is a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout. The point of
-                using Lorem Ipsum is that it has a more-or-less normal distribution
-                of letters, as opposed to using 'Content here, content here', making
-                it look like readable English. Many desktop publishing packages and
-                web page editors now use Lorem Ipsum as their default model text, and
-                a search for 'lorem ipsum' will uncover many web sites still in their
-                inf ancy. Various versions have evolved over the years, sometimes by
-                accident, sometimes on purpose (injected humour and the like).</p>
-
-        </div>
+    <head>
+        <title>Atividade 09</title>
+        <meta charset="utf-8">
+        <style type="text/css">
+            body{
+                margin: 0px;
+            }
+            .container{}
+            .header{
+                position: fixed;
+                background-color: rgb(255, 0, 162);
+                color: black;
+                width: 100%;
+                height: 10%;
+                text-align: center;
+                padding-top: 50px;
+                font-family: 'Courier New', Courier, monospace;
+            }
+            .esquerda{
+                background-color: #4B0082;
+                color: black;
+                width: 25%;
+                height: 310px;
+                text-align: center;
+                float: left;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 310px;
+            }
+            .corpo{
+                background-color: #9310D3;
+                color: black;
+                width: 50%;
+                height: 310px;
+                float: left;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 310px;
+                text-align: center;
+            }
+            .direita{
+                background-color: #BA55D3;
+                color: black;
+                width: 25%;
+                height: 310px;
+                float: right;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                padding-top: 310px;
+                text-align: center;
+            }
+            .footer{
+                background-color: #FFB6C1;
+                color: black;
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                font-family: 'Courier New', Courier, monospace;
+                padding-top: 10%;
+            }
+        </style>
+    </head>
+    <body>
         <div class="container">
-        <div class="noticia">
-
-            <h1>Titulo da noticia</h1>
-            
-             <img class="imagem" src"https://img.freepik.com/fotos-premium/animacao-grafica-de-introducao-de-noticias-com-circulos-e-mapa-mundi-fundo-abstrato-estilo-de-ilustracao-3d-elegante-e-luxuoso-para-noticias-e-modelo-de-negocios_510351-4673.jpg">
-            <p>It is a long established fact that a reader will be distracted by the
-                readable content of a page when looking at its layout. The point of
-                using Lorem Ipsum is that it has a more-or-less normal distribution
-                of letters, as opposed to using 'Content here, content here', making
-                it look like readable English. Many desktop publishing packages and
-                web page editors now use Lorem Ipsum as their default model text, and
-                a search for 'lorem ipsum' will uncover many web sites still in their
-                inf ancy. Various versions have evolved over the years, sometimes by
-                accident, sometimes on purpose (injected humour and the like).</p>
-
+            <div class="header">
+                Header 100%
+            </div>
+            <div class="esquerda">
+                Left<br>
+                25%
+            </div>
+            <div class="corpo">
+                Center<br>
+                50%
+            </div>
+            <div class="direita">
+                Right<br>
+                25%
+            </div>
+            <div class="footer">
+                Footer<br>
+                100%
+                
+            </div>
         </div>
-    </div>
-</body>
-
+    </body>
 </html>
